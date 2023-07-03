@@ -1,5 +1,5 @@
-baseurl = "https://tanchen.pages.dev" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Universal"
+baseurl = "https://www.tanchen.net" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "Tan Chen's website"
 theme = "hugo-universal-theme"
 themesDir = "themes"
 languageCode = "en-us"
@@ -28,36 +28,6 @@ pluralizelisttitles = false
     identifier = "menu.home"
     url        = "/"
     weight     = 1
-
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
 
 [[menu.main]]
     name       = "Features"
@@ -528,20 +498,22 @@ pluralizelisttitles = false
     link_url = "#"
     link_text = "Check other homepages"
 
+
+[params.recent_posts]
+    enable = true
+    title = "Our  News"
+    subtitle = "News about us, recently"
+    hide_summary = false
+
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
     title = "Our Clients"
-    subtitle = ""
+    subtitle = "Type some logo here"
 
-[params.recent_posts]
-    enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-    hide_summary = false
-
+# 最近的帖文开关
 [params.footer.recent_posts]
     enable = true
 
